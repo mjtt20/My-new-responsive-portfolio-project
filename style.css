@@ -28,6 +28,11 @@ body {
     align-items: center;
     justify-content: space-between;
     flex-wrap: wrap;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
 }
 
 .container nav ul li {
@@ -89,6 +94,18 @@ body {
     position: relative;
     left: 40px;
     bottom: 20px;
+}
+
+.header-div .container nav {
+    background: #100f3e;
+}
+
+.header-div .container {
+    padding: 0;
+}
+
+.p-fix {
+    padding: 10px 10%;
 }
 
 
@@ -394,20 +411,109 @@ form .button2 {
     display: none;
 }
 
+
+/* ----------footer---------- */
+
+
+footer{
+    background-color: #100f3e;
+    margin-top: 100px;
+}
+
+
+.footerContainer{
+    width: 100%;
+    padding: 70px 30px 20px;
+}
+
+
+.social-icons-2{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 40px;
+}
+
+
+.social-icons-2 a{
+    text-decoration: none;
+    padding: 10px;
+    border-radius: 50%;
+    margin: 10px;
+    background-color: white;
+}
+
+
+.social-icons-2 a {
+    font-size: 2em;
+    color: black;
+    opacity: 0.9;
+}
+
+
+.footerContainer ul{
+    display: flex;
+    justify-content: center;
+    list-style: none;
+}
+
+
+.footerContainer ul li a{
+    color: white;
+    margin: 20px;
+    text-decoration: none;
+    font-size: 1.3em;
+    opacity: 0.5;
+    
+}
+
+
+.footerContainer ul li a:hover{
+    opacity: 1;
+}
+
+
+.footerContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.foo.last-div-of-footer p{
+    color: white;
+}
+
+
+.designer{
+    opacity: 0.7;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: 400;
+    margin: 0px 5px;
+}
+
+
+.footerNav{
+    margin-bottom: 40px;
+}
+
 @media only screen and (max-width: 600px) {
     .header-text-2 {
         margin-top: 30%;
         font-size: 16px;
         flex-direction: column-reverse;
     }
-    .div-2{
+
+    .div-2 {
         width: 100%;
     }
-    .div-2 img{
+
+    .div-2 img {
         width: 300px;
-        left:0;
+        left: 0;
         bottom: 0;
     }
+
     .header-text h1 {
         font-size: 30px;
     }
@@ -481,6 +587,15 @@ form .button2 {
     .header-text {
         text-align: center;
         display: inline;
+    }
+
+    .footerNav ul{
+        flex-direction: column;
+    }
+    .footerNav ul li{
+        width: 100%;
+        text-align: center;
+        margin: 10px;
     }
 }
 
