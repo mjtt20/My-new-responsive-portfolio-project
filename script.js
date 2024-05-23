@@ -37,8 +37,3 @@ function closeBar(){
 function openBar(){
     sideBar.style.right = "0";
 }
- function inputValue(){
-    document.getElementById('Name').value='';
-    document.getElementById('email').value='';
-    document.getElementById('textarea').innerText='';
- }
