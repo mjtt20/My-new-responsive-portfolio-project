@@ -350,7 +350,6 @@ body {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    flex-wrap: wrap;
 }
 
 .left-div {
@@ -416,12 +415,6 @@ form .button2 {
     font-size: 18px;
     margin-top: 20px;
     cursor: pointer;
-}
-
-/* ------------css for small responsive---------- */
-
-.header-div .container nav .fa-solid {
-    display: none;
 }
 
 
@@ -508,6 +501,12 @@ footer{
 
 .footerNav{
     margin-bottom: 40px;
+}
+
+/* ------------css for small responsive---------- */
+
+.header-div .container nav .fa-solid {
+    display: none;
 }
 
 @media only screen and (max-width: 600px) {
