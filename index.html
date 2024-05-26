@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/style.css">
     <script src="https://kit.fontawesome.com/8524528753.js" crossorigin="anonymous"></script>
 </head>
 
@@ -20,6 +20,7 @@
                     <li><a href="#about">About</a></li>
                     <li><a href="#services">Services</a></li>
                     <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#team">Team</a></li>
                     <li><a href="#contact">Contact</a></li>
                     <i onclick="closeBar()" class="fa-solid fa-xmark"></i>
                 </ul>
@@ -46,15 +47,15 @@
         <div class="container">
             <div class="content-row">
                 <div class="about-colum-1">
-                    <img src="images/user.png" alt="">
+                    <swiper-container class="mySwiper" effect="cards" grab-cursor="true">
+                        <swiper-slide><img src="images/user1.jpg" alt=""></swiper-slide>
+                        <swiper-slide><img src="images/user3.jpg" alt=""></swiper-slide>
+                        <swiper-slide><img src="images/user2.jpg" alt=""></swiper-slide>
+                      </swiper-container>
                 </div>
                 <div class="about-colum-2">
                     <h1>About Me</h1>
-                    <p class="margin-20">Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus optio doloribus esse eius
-                        repellat ratione porro nulla labore a odio enim accusamus architecto minus voluptate vitae ea
-                        officiis sint dignissimos, tempore nam hic exercitationem! Recusandae inventore debitis soluta
-                        aperiam id? Officiis quisquam suscipit natus ullam, quasi facilis eos eligendi placeat
-                        molestiae, ratione a perferendis esse totam dolorum, est fuga optio!
+                    <p class="margin-20">Hello , I am Sudorshon Kumar Biswas, a seasoned full stack Digital Marketer with over a decade of expertise in driving digital marketing strategies, sales promotions,and managing various platforms like Facebook, You Tube,and E-commerce stores. My skills extend to video boosting. graphic design and ensuring efficient E-commerce store management. If you are seeking to elevate your business,fret not, iI am here to assist you in amplifying your online presence, generating substantial traffic, and transforming your business into a lucrative venture. let's collaborate to make your business thrive!
                     </p>
                     <div class="titles">
                         <p id="paragraph-1" class="title active" onclick="FforSkill()">Skills</p>
@@ -79,9 +80,13 @@
 
                     <div id="Education" class="tab-contents ">
                         <ul>
-                            <li><span>2016</span><br>UI/UX design Trainig at Et Institure</li>
-                            <li><span>2016</span><br>MBA from MIT Bangladesh</li>
-                            <li><span>2014</span><br>BBA from ISM Bangladesh</li>
+                            <li><span>1992</span><br>University of Dhaka  </li>
+                            <li><span>1991</span><br>University of Dhaka </li>
+                            <li><span>1988</span><br>Kushtia Govt. College , 
+                                Jessore Board. </li>
+                            <li><span>1986</span><br>Porahati High School, 
+                                Jessore Board.
+                                </li>
                         </ul>
                     </div>
                 </div>
@@ -156,7 +161,6 @@
             <a class="button" href="">See more</a>
         </div>
     </div>
-
     <!-- -----------contact---------- -->
 
     <div id="contact">
@@ -211,8 +215,8 @@
         
     </footer>
 
-
-    <script src="script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-element-bundle.min.js"></script>
+    <script src="js/script.js"></script>
     <script>
         const scriptURL = 'https://script.google.com/macros/s/AKfycbwwI5abqELeaqomDOq7sslJVIGXnYIMOzl3iCHCqXlqcnaHg6gnIpiQlyzfEJFIKe_4vA/exec'
         const form = document.forms['submit-to-google-sheet']

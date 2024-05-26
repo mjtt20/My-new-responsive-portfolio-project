@@ -206,6 +206,24 @@ body {
     font-weight: 600;
     color: white;
 }
+swiper-container {
+    width: 350px;
+    height:90%;
+  }
+  
+  swiper-slide {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 18px;
+    font-size: 22px;
+    font-weight: bold;
+    color: #fff;
+  }
+  
+  swiper-slide{
+      border: none;
+  }
 
 
 /* ------------services start here----------- */
@@ -340,6 +358,12 @@ body {
     background: #9969cc;
 }
 
+/* ------------------team start from here-------------- */
+
+
+
+
+
 /* -----------contact start here--------- */
 
 .contact-container {
@@ -350,6 +374,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    flex-wrap: wrap;
 }
 
 .left-div {
@@ -509,6 +534,10 @@ footer{
     display: none;
 }
 
+@media only screen and(max-width:900px){
+    
+}
+
 @media only screen and (max-width: 600px) {
     .header-text-2 {
         margin-top: 30%;
@@ -612,7 +641,9 @@ footer{
         text-align: center;
         margin: 10px;
     }
+   
 }
+
 
 #success-msg {
     color: #61b752;
