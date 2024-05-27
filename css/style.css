@@ -207,8 +207,8 @@ body {
     color: white;
 }
 swiper-container {
-    width: 350px;
-    height:90%;
+    width: 400px;
+    height: 90%;
   }
   
   swiper-slide {
@@ -222,7 +222,7 @@ swiper-container {
   }
   
   swiper-slide{
-      border: none;
+      border: 7px solid white;
   }
 
 
@@ -357,10 +357,6 @@ swiper-container {
 .button:hover {
     background: #9969cc;
 }
-
-/* ------------------team start from here-------------- */
-
-
 
 
 
