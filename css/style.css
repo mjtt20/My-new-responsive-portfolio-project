@@ -113,7 +113,9 @@ body {
     text-decoration: none;
     color: white;
 }
-
+.SK{
+    color: #9969cc;
+}
 
 /* ----------About start here------------ */
 
@@ -207,8 +209,8 @@ body {
     color: white;
 }
 swiper-container {
-    width: 400px;
-    height: 90%;
+    width: 350px;
+    height: 400px;
   }
   
   swiper-slide {
