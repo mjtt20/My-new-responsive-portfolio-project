@@ -328,7 +328,7 @@ swiper-container {
     margin-bottom: 20px;
 }
 
-.upper-layer a {
+/* .upper-layer a { */
     /* margin-top: 20px;
     color: #9969cc;
     text-decoration: none;
@@ -339,7 +339,7 @@ swiper-container {
     height: 60px;
     border-radius: 50%;
     text-align: center; */
-}
+/* } */
 .upper-layer a button{
     margin-top: 20px;
     color: #000;
