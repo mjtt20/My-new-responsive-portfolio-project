@@ -579,6 +579,9 @@ footer{
     height: 290px;
   }
 
+  .digital-marketer{
+    line-height: 45px;
+  }
     .div-2 {
         width: 100%;
     }
@@ -693,9 +696,6 @@ footer{
         font-size: 20px;
         line-height: 30px;
     }
-    /* .list-of-services{
-        text-align: center;
-    } */
    .list-of-services div p, .list-of-services div a{
         font-size: 18px;
         line-height: 25px;
